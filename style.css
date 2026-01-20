@@ -1,25 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     margin: 0;
-}
-
-h1 {
-    color: blue;
-}
-
-p {
-    color: rgb(0, 166, 19);
-}
-
-header {
-    background-color: rgb(32, 32, 32);
-    border: 1px solid red;
-}
-
-nav {
-    background-color: rgb(56, 56, 56);
-    border: 1px solid yellow;
+    font-family: "Inter", sans-serif;
 }
 
 main {
-    background-color: rgb(88, 88, 88);
+    margin: 50px 168px 0px 168px;
+    border: 1px solid red;
+}
+
+/* Background Colors */
+.bg-test {
+    background-color: rgb(27, 27, 27);
+}
+
+/* Text Colors */
+.text-col-white {
+    color: white;
+}
+
+/* Paddings */
+.p-1 {
+    padding: 1rem;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.card {
+
 }
