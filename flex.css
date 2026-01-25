@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.announcement {
+    background-color: rgb(202, 162, 101);
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(207, 195, 177);
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 1em;
+}
+
+.header h4 {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(168, 140, 99);
+    justify-content: flex-start;
+}
+
+.navbar li {
+    display: inline;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar li:hover {
+    background-color: rgb(202, 162, 101);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.container aside {
+    background-color: rgb(252, 240, 223);
+    flex: 1;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.container section {
+    background-color: rgb(226, 216, 202);
+    flex: 3;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3em 1em;
+}
+
+section article {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.image-photo {
+    background-color: gray;
+    height: 200px;
+    padding: 10px 20px;
+}
+
+.image-text {
+    background-color: gray;
+    height: 35px;
+    padding: 10px 20px;
+}
+
+.image-article {
+    background-color: gray;
+    height: 200px;
+    padding: 10px 20px;
+}
